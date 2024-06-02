@@ -13,8 +13,17 @@ body {
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --border-color: #6223f6;
+  --text-decoration-color: #9575de;
+}
+
+a, a:link, a:visited {
+    text-decoration: none !important;
+    color: inherit;
+  }
+
+u {
+    text-decoration-color: #9575de
 }
 
 .container {
